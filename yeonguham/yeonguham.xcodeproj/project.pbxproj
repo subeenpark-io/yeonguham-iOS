@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76A1DB5B46AF24F15E623FD3 /* Pods_yeonguham.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D4B1864F3287566088F29A /* Pods_yeonguham.framework */; };
+		CC437F12265E061000FBD42D /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */; };
+		CC437F13265E061000FBD42D /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */; };
+		CC437F16265E061000FBD42D /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */; };
+		CC437F17265E061000FBD42D /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F0E265E061000FBD42D /* NotoSansKR-Thin.otf */; };
+		CC437F19265E061000FBD42D /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F10265E061000FBD42D /* NotoSansKR-Medium.otf */; };
+		CC437F1A265E061000FBD42D /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F11265E061000FBD42D /* NotoSansKR-Bold.otf */; };
+		CC437F1E265E0F6900FBD42D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F1D265E0F6900FBD42D /* UIView+Extension.swift */; };
+		CC437F20265E0FAA00FBD42D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F1F265E0FAA00FBD42D /* MainViewController.swift */; };
+		CC437F22265E0FBF00FBD42D /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F21265E0FBF00FBD42D /* Const.swift */; };
+		CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F23265E0FCF00FBD42D /* Storyboard.swift */; };
+		CC437F26265E15A800FBD42D /* Nickname.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC437F25265E15A800FBD42D /* Nickname.storyboard */; };
+		CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F27265E16AC00FBD42D /* NicknameViewController.swift */; };
+		CC485010265D5284003BCE67 /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC48500D265D5284003BCE67 /* GmarketSansTTFBold.ttf */; };
+		CC485011265D5284003BCE67 /* GmarketSansTTFLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC48500E265D5284003BCE67 /* GmarketSansTTFLight.ttf */; };
+		CC485012265D5284003BCE67 /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC48500F265D5284003BCE67 /* GmarketSansTTFMedium.ttf */; };
+		CC485014265D55AF003BCE67 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC485013265D55AF003BCE67 /* Launch Screen.storyboard */; };
 		CC8FDEFD265D45EB00E3FE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FDEFC265D45EB00E3FE3B /* AppDelegate.swift */; };
 		CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FDEFE265D45EB00E3FE3B /* SceneDelegate.swift */; };
 		CC8FDF01265D45EB00E3FE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FDF00265D45EB00E3FE3B /* ViewController.swift */; };
 		CC8FDF04265D45EB00E3FE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF02265D45EB00E3FE3B /* Main.storyboard */; };
 		CC8FDF06265D45ED00E3FE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */; };
-		CC8FDF09265D45ED00E3FE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF07265D45ED00E3FE3B /* LaunchScreen.storyboard */; };
+		CC8FDF1D265D472600E3FE3B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF1C265D472600E3FE3B /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		017299EB97E34B7CECB9DC28 /* Pods-yeonguham.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeonguham.debug.xcconfig"; path = "Target Support Files/Pods-yeonguham/Pods-yeonguham.debug.xcconfig"; sourceTree = "<group>"; };
+		9F12412BDD7B22C18375369C /* Pods-yeonguham.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeonguham.release.xcconfig"; path = "Target Support Files/Pods-yeonguham/Pods-yeonguham.release.xcconfig"; sourceTree = "<group>"; };
+		B0D4B1864F3287566088F29A /* Pods_yeonguham.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeonguham.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		CC437F0E265E061000FBD42D /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+		CC437F10265E061000FBD42D /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		CC437F11265E061000FBD42D /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		CC437F1D265E0F6900FBD42D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CC437F1F265E0FAA00FBD42D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC437F21265E0FBF00FBD42D /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CC437F23265E0FCF00FBD42D /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		CC437F25265E15A800FBD42D /* Nickname.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nickname.storyboard; sourceTree = "<group>"; };
+		CC437F27265E16AC00FBD42D /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
+		CC48500D265D5284003BCE67 /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansTTFBold.ttf; path = ../../../../../../../Downloads/GmarketSansTTF/GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
+		CC48500E265D5284003BCE67 /* GmarketSansTTFLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansTTFLight.ttf; path = ../../../../../../../Downloads/GmarketSansTTF/GmarketSansTTFLight.ttf; sourceTree = "<group>"; };
+		CC48500F265D5284003BCE67 /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansTTFMedium.ttf; path = ../../../../../../../Downloads/GmarketSansTTF/GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
+		CC485013265D55AF003BCE67 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CC8FDEF9265D45EB00E3FE3B /* yeonguham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeonguham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8FDEFC265D45EB00E3FE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC8FDEFE265D45EB00E3FE3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CC8FDF00265D45EB00E3FE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC8FDF03265D45EB00E3FE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC8FDF08265D45ED00E3FE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8FDF0A265D45ED00E3FE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8FDF1C265D472600E3FE3B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A1DB5B46AF24F15E623FD3 /* Pods_yeonguham.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1F3A88B595590B74CF7D86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D4B1864F3287566088F29A /* Pods_yeonguham.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C06BED39340B6AB08FD12E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				017299EB97E34B7CECB9DC28 /* Pods-yeonguham.debug.xcconfig */,
+				9F12412BDD7B22C18375369C /* Pods-yeonguham.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC437F1C265E079800FBD42D /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CC8FDF02265D45EB00E3FE3B /* Main.storyboard */,
+				CC437F25265E15A800FBD42D /* Nickname.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		CC8FDEF0265D45EB00E3FE3B = {
 			isa = PBXGroup;
 			children = (
-				CC8FDEFB265D45EB00E3FE3B /* yeonguham */,
+				CC8FDF10265D468200E3FE3B /* Resources */,
+				CC8FDF11265D468A00E3FE3B /* Sources */,
 				CC8FDEFA265D45EB00E3FE3B /* Products */,
+				8C06BED39340B6AB08FD12E6 /* Pods */,
+				3D1F3A88B595590B74CF7D86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,20 +117,131 @@
 				CC8FDEF9265D45EB00E3FE3B /* yeonguham.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		CC8FDEFB265D45EB00E3FE3B /* yeonguham */ = {
+		CC8FDF10265D468200E3FE3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC8FDF12265D469300E3FE3B /* Fonts */,
+				CC8FDF0A265D45ED00E3FE3B /* Info.plist */,
+				CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */,
+				CC8FDF1C265D472600E3FE3B /* Colors.xcassets */,
+				CC8FDF14265D46AF00E3FE3B /* Constant */,
+				CC8FDF13265D469D00E3FE3B /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC8FDF11265D468A00E3FE3B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				CC8FDEFC265D45EB00E3FE3B /* AppDelegate.swift */,
 				CC8FDEFE265D45EB00E3FE3B /* SceneDelegate.swift */,
-				CC8FDF00265D45EB00E3FE3B /* ViewController.swift */,
-				CC8FDF02265D45EB00E3FE3B /* Main.storyboard */,
-				CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */,
-				CC8FDF07265D45ED00E3FE3B /* LaunchScreen.storyboard */,
-				CC8FDF0A265D45ED00E3FE3B /* Info.plist */,
+				CC8FDF1A265D46EC00E3FE3B /* Model */,
+				CC8FDF18265D46DB00E3FE3B /* APIService */,
+				CC8FDF17265D46D400E3FE3B /* View */,
+				CC8FDF19265D46E400E3FE3B /* Cell */,
+				CC8FDF16265D46C300E3FE3B /* ViewController */,
+				CC8FDF1B265D470C00E3FE3B /* Extension */,
+				CC8FDF15265D46B800E3FE3B /* Utils */,
 			);
-			path = yeonguham;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CC8FDF12265D469300E3FE3B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */,
+				CC437F11265E061000FBD42D /* NotoSansKR-Bold.otf */,
+				CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */,
+				CC437F10265E061000FBD42D /* NotoSansKR-Medium.otf */,
+				CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */,
+				CC437F0E265E061000FBD42D /* NotoSansKR-Thin.otf */,
+				CC48500D265D5284003BCE67 /* GmarketSansTTFBold.ttf */,
+				CC48500E265D5284003BCE67 /* GmarketSansTTFLight.ttf */,
+				CC48500F265D5284003BCE67 /* GmarketSansTTFMedium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CC8FDF13265D469D00E3FE3B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CC437F1C265E079800FBD42D /* SignUp */,
+				CC8FDF1F265D477E00E3FE3B /* Base.Iproj */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CC8FDF14265D46AF00E3FE3B /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				CC437F21265E0FBF00FBD42D /* Const.swift */,
+				CC437F23265E0FCF00FBD42D /* Storyboard.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		CC8FDF15265D46B800E3FE3B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CC8FDF16265D46C300E3FE3B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC8FDF00265D45EB00E3FE3B /* ViewController.swift */,
+				CC437F1F265E0FAA00FBD42D /* MainViewController.swift */,
+				CC437F27265E16AC00FBD42D /* NicknameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CC8FDF17265D46D400E3FE3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC8FDF18265D46DB00E3FE3B /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		CC8FDF19265D46E400E3FE3B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC8FDF1A265D46EC00E3FE3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC8FDF1B265D470C00E3FE3B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC437F1D265E0F6900FBD42D /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC8FDF1F265D477E00E3FE3B /* Base.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+				CC485013265D55AF003BCE67 /* Launch Screen.storyboard */,
+			);
+			path = Base.Iproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC8FDF0D265D45ED00E3FE3B /* Build configuration list for PBXNativeTarget "yeonguham" */;
 			buildPhases = (
+				4BCB84F63649238EC3D1FB96 /* [CP] Check Pods Manifest.lock */,
 				CC8FDEF5265D45EB00E3FE3B /* Sources */,
 				CC8FDEF6265D45EB00E3FE3B /* Frameworks */,
 				CC8FDEF7265D45EB00E3FE3B /* Resources */,
+				B7EC4117685BF34480DAD29D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +303,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC8FDF09265D45ED00E3FE3B /* LaunchScreen.storyboard in Resources */,
+				CC437F26265E15A800FBD42D /* Nickname.storyboard in Resources */,
+				CC437F13265E061000FBD42D /* NotoSansKR-Black.otf in Resources */,
+				CC485010265D5284003BCE67 /* GmarketSansTTFBold.ttf in Resources */,
+				CC485011265D5284003BCE67 /* GmarketSansTTFLight.ttf in Resources */,
+				CC8FDF1D265D472600E3FE3B /* Colors.xcassets in Resources */,
 				CC8FDF06265D45ED00E3FE3B /* Assets.xcassets in Resources */,
 				CC8FDF04265D45EB00E3FE3B /* Main.storyboard in Resources */,
+				CC437F16265E061000FBD42D /* NotoSansKR-Light.otf in Resources */,
+				CC485012265D5284003BCE67 /* GmarketSansTTFMedium.ttf in Resources */,
+				CC437F12265E061000FBD42D /* NotoSansKR-Regular.otf in Resources */,
+				CC437F1A265E061000FBD42D /* NotoSansKR-Bold.otf in Resources */,
+				CC485014265D55AF003BCE67 /* Launch Screen.storyboard in Resources */,
+				CC437F19265E061000FBD42D /* NotoSansKR-Medium.otf in Resources */,
+				CC437F17265E061000FBD42D /* NotoSansKR-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BCB84F63649238EC3D1FB96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yeonguham-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7EC4117685BF34480DAD29D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yeonguham/Pods-yeonguham-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yeonguham/Pods-yeonguham-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yeonguham/Pods-yeonguham-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC8FDEF5265D45EB00E3FE3B /* Sources */ = {
@@ -139,7 +371,12 @@
 			files = (
 				CC8FDF01265D45EB00E3FE3B /* ViewController.swift in Sources */,
 				CC8FDEFD265D45EB00E3FE3B /* AppDelegate.swift in Sources */,
+				CC437F1E265E0F6900FBD42D /* UIView+Extension.swift in Sources */,
+				CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */,
+				CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */,
 				CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */,
+				CC437F20265E0FAA00FBD42D /* MainViewController.swift in Sources */,
+				CC437F22265E0FBF00FBD42D /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,14 +389,6 @@
 				CC8FDF03265D45EB00E3FE3B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CC8FDF07265D45ED00E3FE3B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC8FDF08265D45ED00E3FE3B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,12 +512,13 @@
 		};
 		CC8FDF0E265D45ED00E3FE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017299EB97E34B7CECB9DC28 /* Pods-yeonguham.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZB44VD5WX7;
-				INFOPLIST_FILE = yeonguham/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +532,13 @@
 		};
 		CC8FDF0F265D45ED00E3FE3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F12412BDD7B22C18375369C /* Pods-yeonguham.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZB44VD5WX7;
-				INFOPLIST_FILE = yeonguham/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
