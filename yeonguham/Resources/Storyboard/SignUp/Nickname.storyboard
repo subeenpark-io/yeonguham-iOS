@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansKR-Medium.otf">
+            <string>NotoSansKR-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--Nickname View Controller-->
+        <!--NicknameViewController-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="NicknameViewController" id="Y6W-OH-hqX" customClass="NicknameViewController" customModule="yeonguham" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NicknameViewController" title="NicknameViewController" id="Y6W-OH-hqX" customClass="NicknameViewController" customModule="yeonguham" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKt-o5-9yt">
+                            <navigationBar contentMode="scaleToFill" translucent="NO" backIndicatorImage="iconBack" backIndicatorTransitionMaskImage="iconBack" translatesAutoresizingMaskIntoConstraints="NO" id="FKt-o5-9yt">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Nzp-dm-0ZM"/>
@@ -29,17 +35,50 @@
                                     <navigationItem title="닉네임 입력" id="C89-eP-4vQ"/>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사용하실 닉네임을 입력해주세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Duc-eZ-GgN">
+                                <rect key="frame" x="24" y="120" width="183" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="183" id="hOX-tr-ITM"/>
+                                    <constraint firstAttribute="height" constant="72" id="jUL-5I-jBb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Medium" family="Noto Sans KR" pointSize="24"/>
+                                <color key="textColor" name="Gray-7"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VT7-EA-nAA">
+                                <rect key="frame" x="16" y="782" width="382" height="56"/>
+                                <color key="backgroundColor" name="Primary"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="62Y-56-zn2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Medium" family="Noto Sans KR" pointSize="18"/>
+                                <state key="normal" title="계속하기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="wAJ-sB-wVB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="FKt-o5-9yt" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="IuD-1Q-r6f"/>
+                            <constraint firstItem="VT7-EA-nAA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="LMg-SZ-e3s"/>
+                            <constraint firstItem="Duc-eZ-GgN" firstAttribute="top" secondItem="FKt-o5-9yt" secondAttribute="bottom" constant="32" id="X0d-w8-hM2"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="VT7-EA-nAA" secondAttribute="bottom" constant="24" id="fUJ-DK-gAr"/>
                             <constraint firstItem="FKt-o5-9yt" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="haa-la-hKm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VT7-EA-nAA" secondAttribute="trailing" constant="16" id="jKU-Q2-gHu"/>
+                            <constraint firstItem="Duc-eZ-GgN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="qwf-iH-QlI"/>
                             <constraint firstItem="FKt-o5-9yt" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="vrb-P7-59B"/>
                         </constraints>
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="button" destination="VT7-EA-nAA" id="j2u-7k-IEB"/>
+                        <outlet property="navBar" destination="FKt-o5-9yt" id="O6r-ti-pvh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -47,6 +86,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="iconBack" width="24" height="24"/>
+        <namedColor name="Gray-7">
+            <color red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
+            <color red="0.094117647058823528" green="0.81176470588235294" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

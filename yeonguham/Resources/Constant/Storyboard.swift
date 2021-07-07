@@ -14,10 +14,8 @@ extension Const {
         
         case main = "Main"
         case nickname = "Nickname"
+        case emailValidation = "EmailValidation"
         
-        case noticeMain = "NoticeMain"
-        case followMain = "FollowMain"
-        case savedMain = "SavedMain"
 
         
         

@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		76A1DB5B46AF24F15E623FD3 /* Pods_yeonguham.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D4B1864F3287566088F29A /* Pods_yeonguham.framework */; };
+		CC100BC82695CEC8005EED21 /* GmarketSansTTFLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC52695CEC8005EED21 /* GmarketSansTTFLight.ttf */; };
+		CC100BC92695CEC8005EED21 /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC62695CEC8005EED21 /* GmarketSansTTFMedium.ttf */; };
+		CC100BCA2695CEC8005EED21 /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC72695CEC8005EED21 /* GmarketSansTTFBold.ttf */; };
+		CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */; };
+		CC100BD02695D4F7005EED21 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BCF2695D4F7005EED21 /* UITextField+Extension.swift */; };
+		CC100BD22695DD03005EED21 /* UINavigationBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BD12695DD03005EED21 /* UINavigationBar+Extension.swift */; };
+		CC100BD72695E1E5005EED21 /* EmailValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */; };
+		CC100BD92695E20C005EED21 /* EmailValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC100BD82695E20C005EED21 /* EmailValidation.storyboard */; };
 		CC437F12265E061000FBD42D /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */; };
 		CC437F13265E061000FBD42D /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */; };
 		CC437F16265E061000FBD42D /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */; };
@@ -20,9 +28,6 @@
 		CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F23265E0FCF00FBD42D /* Storyboard.swift */; };
 		CC437F26265E15A800FBD42D /* Nickname.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC437F25265E15A800FBD42D /* Nickname.storyboard */; };
 		CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F27265E16AC00FBD42D /* NicknameViewController.swift */; };
-		CC485010265D5284003BCE67 /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC48500D265D5284003BCE67 /* GmarketSansTTFBold.ttf */; };
-		CC485011265D5284003BCE67 /* GmarketSansTTFLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC48500E265D5284003BCE67 /* GmarketSansTTFLight.ttf */; };
-		CC485012265D5284003BCE67 /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC48500F265D5284003BCE67 /* GmarketSansTTFMedium.ttf */; };
 		CC485014265D55AF003BCE67 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC485013265D55AF003BCE67 /* Launch Screen.storyboard */; };
 		CC8FDEFD265D45EB00E3FE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FDEFC265D45EB00E3FE3B /* AppDelegate.swift */; };
 		CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FDEFE265D45EB00E3FE3B /* SceneDelegate.swift */; };
@@ -36,6 +41,14 @@
 		017299EB97E34B7CECB9DC28 /* Pods-yeonguham.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeonguham.debug.xcconfig"; path = "Target Support Files/Pods-yeonguham/Pods-yeonguham.debug.xcconfig"; sourceTree = "<group>"; };
 		9F12412BDD7B22C18375369C /* Pods-yeonguham.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeonguham.release.xcconfig"; path = "Target Support Files/Pods-yeonguham/Pods-yeonguham.release.xcconfig"; sourceTree = "<group>"; };
 		B0D4B1864F3287566088F29A /* Pods_yeonguham.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeonguham.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC100BC52695CEC8005EED21 /* GmarketSansTTFLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFLight.ttf; sourceTree = "<group>"; };
+		CC100BC62695CEC8005EED21 /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
+		CC100BC72695CEC8005EED21 /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
+		CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextField.swift; sourceTree = "<group>"; };
+		CC100BCF2695D4F7005EED21 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		CC100BD12695DD03005EED21 /* UINavigationBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extension.swift"; sourceTree = "<group>"; };
+		CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationViewController.swift; sourceTree = "<group>"; };
+		CC100BD82695E20C005EED21 /* EmailValidation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmailValidation.storyboard; sourceTree = "<group>"; };
 		CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
 		CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
 		CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
@@ -48,9 +61,6 @@
 		CC437F23265E0FCF00FBD42D /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		CC437F25265E15A800FBD42D /* Nickname.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nickname.storyboard; sourceTree = "<group>"; };
 		CC437F27265E16AC00FBD42D /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
-		CC48500D265D5284003BCE67 /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansTTFBold.ttf; path = ../../../../../../../Downloads/GmarketSansTTF/GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
-		CC48500E265D5284003BCE67 /* GmarketSansTTFLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansTTFLight.ttf; path = ../../../../../../../Downloads/GmarketSansTTF/GmarketSansTTFLight.ttf; sourceTree = "<group>"; };
-		CC48500F265D5284003BCE67 /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GmarketSansTTFMedium.ttf; path = ../../../../../../../Downloads/GmarketSansTTF/GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
 		CC485013265D55AF003BCE67 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CC8FDEF9265D45EB00E3FE3B /* yeonguham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeonguham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8FDEFC265D45EB00E3FE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,11 +101,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CC100BD52695E1CD005EED21 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CC437F27265E16AC00FBD42D /* NicknameViewController.swift */,
+				CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		CC437F1C265E079800FBD42D /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
 				CC8FDF02265D45EB00E3FE3B /* Main.storyboard */,
 				CC437F25265E15A800FBD42D /* Nickname.storyboard */,
+				CC100BD82695E20C005EED21 /* EmailValidation.storyboard */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -152,15 +172,15 @@
 		CC8FDF12265D469300E3FE3B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				CC100BC72695CEC8005EED21 /* GmarketSansTTFBold.ttf */,
+				CC100BC52695CEC8005EED21 /* GmarketSansTTFLight.ttf */,
+				CC100BC62695CEC8005EED21 /* GmarketSansTTFMedium.ttf */,
 				CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */,
 				CC437F11265E061000FBD42D /* NotoSansKR-Bold.otf */,
 				CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */,
 				CC437F10265E061000FBD42D /* NotoSansKR-Medium.otf */,
 				CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */,
 				CC437F0E265E061000FBD42D /* NotoSansKR-Thin.otf */,
-				CC48500D265D5284003BCE67 /* GmarketSansTTFBold.ttf */,
-				CC48500E265D5284003BCE67 /* GmarketSansTTFLight.ttf */,
-				CC48500F265D5284003BCE67 /* GmarketSansTTFMedium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -193,9 +213,9 @@
 		CC8FDF16265D46C300E3FE3B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CC100BD52695E1CD005EED21 /* SignUp */,
 				CC8FDF00265D45EB00E3FE3B /* ViewController.swift */,
 				CC437F1F265E0FAA00FBD42D /* MainViewController.swift */,
-				CC437F27265E16AC00FBD42D /* NicknameViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -203,6 +223,7 @@
 		CC8FDF17265D46D400E3FE3B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -232,6 +253,8 @@
 			isa = PBXGroup;
 			children = (
 				CC437F1D265E0F6900FBD42D /* UIView+Extension.swift */,
+				CC100BCF2695D4F7005EED21 /* UITextField+Extension.swift */,
+				CC100BD12695DD03005EED21 /* UINavigationBar+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -305,18 +328,19 @@
 			files = (
 				CC437F26265E15A800FBD42D /* Nickname.storyboard in Resources */,
 				CC437F13265E061000FBD42D /* NotoSansKR-Black.otf in Resources */,
-				CC485010265D5284003BCE67 /* GmarketSansTTFBold.ttf in Resources */,
-				CC485011265D5284003BCE67 /* GmarketSansTTFLight.ttf in Resources */,
 				CC8FDF1D265D472600E3FE3B /* Colors.xcassets in Resources */,
+				CC100BD92695E20C005EED21 /* EmailValidation.storyboard in Resources */,
 				CC8FDF06265D45ED00E3FE3B /* Assets.xcassets in Resources */,
 				CC8FDF04265D45EB00E3FE3B /* Main.storyboard in Resources */,
 				CC437F16265E061000FBD42D /* NotoSansKR-Light.otf in Resources */,
-				CC485012265D5284003BCE67 /* GmarketSansTTFMedium.ttf in Resources */,
 				CC437F12265E061000FBD42D /* NotoSansKR-Regular.otf in Resources */,
+				CC100BCA2695CEC8005EED21 /* GmarketSansTTFBold.ttf in Resources */,
 				CC437F1A265E061000FBD42D /* NotoSansKR-Bold.otf in Resources */,
 				CC485014265D55AF003BCE67 /* Launch Screen.storyboard in Resources */,
+				CC100BC82695CEC8005EED21 /* GmarketSansTTFLight.ttf in Resources */,
 				CC437F19265E061000FBD42D /* NotoSansKR-Medium.otf in Resources */,
 				CC437F17265E061000FBD42D /* NotoSansKR-Thin.otf in Resources */,
+				CC100BC92695CEC8005EED21 /* GmarketSansTTFMedium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,10 +397,14 @@
 				CC8FDEFD265D45EB00E3FE3B /* AppDelegate.swift in Sources */,
 				CC437F1E265E0F6900FBD42D /* UIView+Extension.swift in Sources */,
 				CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */,
+				CC100BD72695E1E5005EED21 /* EmailValidationViewController.swift in Sources */,
 				CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */,
+				CC100BD02695D4F7005EED21 /* UITextField+Extension.swift in Sources */,
 				CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */,
+				CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */,
 				CC437F20265E0FAA00FBD42D /* MainViewController.swift in Sources */,
 				CC437F22265E0FBF00FBD42D /* Const.swift in Sources */,
+				CC100BD22695DD03005EED21 /* UINavigationBar+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
