@@ -6,16 +6,27 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
-class MainViewController: UIViewController {
+// for apple login
+import FirebaseAuth
+import AuthenticationServices
+import CryptoKit
 
-    @IBOutlet weak var googleButton: UIView!
+// for kakao login
+import KakaoSDKUser
+
+class MainViewController: UIViewController, ASAuthorizationControllerDelegate {
+    
+    fileprivate var currentNonce: String?
+
+    @IBOutlet weak var googleButton: GIDSignInButton!
     
     @IBOutlet weak var kakaoButton: UIView!
-    
-    @IBOutlet weak var naverButton: UIView!
-    
 
+    
+    @IBOutlet weak var appleButton: UIView!
     
     
     
@@ -27,20 +38,31 @@ class MainViewController: UIViewController {
         giveShadows()
         
         googleButton.isUserInteractionEnabled = true
-        let tap = UITapGestureRecognizer(target: self, action: #selector(googleButtonPressed(_:)))
-        googleButton.addGestureRecognizer(tap)
+        let tapGoogle = UITapGestureRecognizer(target: self, action: #selector(googleButtonPressed(_:)))
+        googleButton.addGestureRecognizer(tapGoogle)
+        
+        kakaoButton.isUserInteractionEnabled = true
+        let tapKakao = UITapGestureRecognizer(target: self, action: #selector(kakaoButtonPressed(_:)))
+        kakaoButton.addGestureRecognizer(tapKakao)
+        
+        appleButton.isUserInteractionEnabled = true
+        let tapApple = UITapGestureRecognizer(target: self, action: #selector(appleButtonPressed(_:)))
+        appleButton.addGestureRecognizer(tapApple)
+        
+        
         
     }
     
+    
 
     private func makeButtonsRounded() {
-        [googleButton, kakaoButton, naverButton].forEach {
+        [googleButton, kakaoButton, appleButton].forEach {
             $0?.makeRounded(radius: 4)
         }
     }
     
     private func giveShadows() {
-        [googleButton, kakaoButton, naverButton].forEach {
+        [googleButton, kakaoButton, appleButton].forEach {
             $0?.giveShadow()
         }
     }
@@ -59,10 +81,36 @@ class MainViewController: UIViewController {
     @objc func googleButtonPressed(_ sender: Any) {
         
         print("tapped")
+        
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        GIDSignIn.sharedInstance().signIn()
+        
+//
+//        self.navigationController?.pushViewController(Const.Storyboard.nickname.viewController, animated: true)
+//
+        
+    }
+    
+    @objc func kakaoButtonPressed(_ sender: Any) {
+        print("KakoButtonTapped")
+        UserApi.shared.loginWithKakaoAccount {(oauthToken, error) in
+                if let error = error {
+                    print(error)
+                }
+                else {
+                    print("loginWithKakaoAccount() success.")
 
-        self.navigationController?.pushViewController(Const.Storyboard.nickname.viewController, animated: true)
-       
+                    //do something
+                    _ = oauthToken
+                }
+            }
+
         
     }
 
+    @objc func appleButtonPressed(_ sender: Any) {
+        
+        print("AppleButtonTapped")
+        FirebaseAuthentication.shared.signInWithApple(window: UIWindow())
+    }
 }

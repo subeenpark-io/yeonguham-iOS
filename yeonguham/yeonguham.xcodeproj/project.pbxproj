@@ -35,6 +35,8 @@
 		CC8FDF04265D45EB00E3FE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF02265D45EB00E3FE3B /* Main.storyboard */; };
 		CC8FDF06265D45ED00E3FE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */; };
 		CC8FDF1D265D472600E3FE3B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF1C265D472600E3FE3B /* Colors.xcassets */; };
+		CCC274F926994469003F2CF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC274F826994469003F2CF1 /* GoogleService-Info.plist */; };
+		CCC274FC2699578E003F2CF1 /* FirebaseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC274FB2699578E003F2CF1 /* FirebaseAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,9 @@
 		CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8FDF0A265D45ED00E3FE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8FDF1C265D472600E3FE3B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CCC274F826994469003F2CF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCC274FA26994B3E003F2CF1 /* yeonguham.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yeonguham.entitlements; sourceTree = "<group>"; };
+		CCC274FB2699578E003F2CF1 /* FirebaseAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,7 @@
 		CC8FDEF0265D45EB00E3FE3B = {
 			isa = PBXGroup;
 			children = (
+				CCC274FA26994B3E003F2CF1 /* yeonguham.entitlements */,
 				CC8FDF10265D468200E3FE3B /* Resources */,
 				CC8FDF11265D468A00E3FE3B /* Sources */,
 				CC8FDEFA265D45EB00E3FE3B /* Products */,
@@ -143,6 +149,7 @@
 		CC8FDF10265D468200E3FE3B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CCC274F826994469003F2CF1 /* GoogleService-Info.plist */,
 				CC8FDF12265D469300E3FE3B /* Fonts */,
 				CC8FDF0A265D45ED00E3FE3B /* Info.plist */,
 				CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */,
@@ -206,6 +213,7 @@
 		CC8FDF15265D46B800E3FE3B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CCC274FB2699578E003F2CF1 /* FirebaseAuthentication.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -279,6 +287,7 @@
 				CC8FDEF6265D45EB00E3FE3B /* Frameworks */,
 				CC8FDEF7265D45EB00E3FE3B /* Resources */,
 				B7EC4117685BF34480DAD29D /* [CP] Embed Pods Frameworks */,
+				5F20DA1FFE562A8F2E33522A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +344,7 @@
 				CC437F16265E061000FBD42D /* NotoSansKR-Light.otf in Resources */,
 				CC437F12265E061000FBD42D /* NotoSansKR-Regular.otf in Resources */,
 				CC100BCA2695CEC8005EED21 /* GmarketSansTTFBold.ttf in Resources */,
+				CCC274F926994469003F2CF1 /* GoogleService-Info.plist in Resources */,
 				CC437F1A265E061000FBD42D /* NotoSansKR-Bold.otf in Resources */,
 				CC485014265D55AF003BCE67 /* Launch Screen.storyboard in Resources */,
 				CC100BC82695CEC8005EED21 /* GmarketSansTTFLight.ttf in Resources */,
@@ -369,6 +379,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5F20DA1FFE562A8F2E33522A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yeonguham/Pods-yeonguham-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yeonguham/Pods-yeonguham-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yeonguham/Pods-yeonguham-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B7EC4117685BF34480DAD29D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +426,7 @@
 				CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */,
 				CC100BD72695E1E5005EED21 /* EmailValidationViewController.swift in Sources */,
 				CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */,
+				CCC274FC2699578E003F2CF1 /* FirebaseAuthentication.swift in Sources */,
 				CC100BD02695D4F7005EED21 /* UITextField+Extension.swift in Sources */,
 				CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */,
 				CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */,
@@ -544,6 +572,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = yeonguham.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZB44VD5WX7;
 				INFOPLIST_FILE = Resources/Info.plist;
@@ -564,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = yeonguham.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZB44VD5WX7;
 				INFOPLIST_FILE = Resources/Info.plist;
