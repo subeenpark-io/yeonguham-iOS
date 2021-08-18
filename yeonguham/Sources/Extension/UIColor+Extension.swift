@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UIColor_Extension: UIView {
+extension UIColor {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -16,5 +16,21 @@ class UIColor_Extension: UIView {
         // Drawing code
     }
     */
+    
+    class var gray3: UIColor { fetchColor(#function) }
+    class var gray5: UIColor { fetchColor(#function) }
+    class var gray6: UIColor { fetchColor(#function) }
+    class var gray7: UIColor { fetchColor(#function) }
+    class var primary: UIColor { fetchColor(#function) }
+    class var primaryDarker: UIColor { fetchColor(#function)}
+    class var complementary: UIColor { fetchColor(#function) }
+    
+    
+    private static func fetchColor(_ name: String) -> UIColor {
+        guard let color = UIColor(named: name) else {
+            return .black
+        }
+        return color
+    }
 
 }
