@@ -14,5 +14,10 @@ target 'yeonguham' do
   pod 'GoogleSignIn'
   pod 'Firebase/Analytics'
   pod 'KakaoSDK'
+  pod 'RxSwift', '6.2.0'
+  pod 'RxCocoa', '6.2.0'
+  pod 'FSCalendar'
+  pod 'Moya', '~> 14.0'
+  
 
 end

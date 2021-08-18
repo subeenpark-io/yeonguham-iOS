@@ -52,6 +52,7 @@ PODS:
     - GoogleUtilities/Environment (~> 7.4)
     - GoogleUtilities/UserDefaults (~> 7.4)
     - PromisesObjC (~> 1.2)
+  - FSCalendar (2.8.2)
   - GoogleAppMeasurement (8.3.0):
     - GoogleAppMeasurement/AdIdSupport (= 8.3.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
@@ -128,12 +129,22 @@ PODS:
     - KakaoSDKCommon/Common (= 2.5.4)
   - KakaoSDKUser (2.5.4):
     - KakaoSDKAuth (= 2.5.4)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (1.2.12)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
   - SnapKit (5.0.1)
   - TagListView (1.4.1)
   - Then (2.7.0)
@@ -142,8 +153,12 @@ DEPENDENCIES:
   - Alamofire (~> 5.2)
   - Firebase/Analytics
   - Firebase/Auth
+  - FSCalendar
   - GoogleSignIn
   - KakaoSDK
+  - Moya (~> 14.0)
+  - RxCocoa (= 6.2.0)
+  - RxSwift (= 6.2.0)
   - SnapKit (~> 5.0.0)
   - TagListView (~> 1.0)
   - Then
@@ -158,6 +173,7 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseInstallations
+    - FSCalendar
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleSignIn
@@ -173,8 +189,12 @@ SPEC REPOS:
     - KakaoSDKTalk
     - KakaoSDKTemplate
     - KakaoSDKUser
+    - Moya
     - nanopb
     - PromisesObjC
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SnapKit
     - TagListView
     - Then
@@ -188,6 +208,7 @@ SPEC CHECKSUMS:
   FirebaseCore: a6dba751680d7033b9d3831e1cfc95ead0605118
   FirebaseCoreDiagnostics: 7e873baabcfaa9512f538554ae4fa0817aaafbdb
   FirebaseInstallations: b69db7680870dbac17bba7a51fc0b5c4b365baa7
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   GoogleAppMeasurement: de70802583dedceb0bca18172b345307e8f410b8
   GoogleDataTransport: 04c3e9a480bbcaa2ec3f5d27f1cdeb6a92f20c8d
   GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
@@ -203,12 +224,16 @@ SPEC CHECKSUMS:
   KakaoSDKTalk: 41abfd99cf661b186935b95fa295c412dd2eb8a8
   KakaoSDKTemplate: 37c2c19dad4538a0897fde26ac367e7c7f0c2f11
   KakaoSDKUser: 285abc213101bd07a9b44735defd36994ea9ada8
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: 1b9ebcef648869e00ead6a4019f66c95dce47907
+PODFILE CHECKSUM: 60921ff3b29b645df4db3924212380973ab7756c
 
 COCOAPODS: 1.10.1
