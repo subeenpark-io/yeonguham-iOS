@@ -16,7 +16,7 @@ class TestViewController: UIViewController {
         $0.backgroundColor = .black
     }
     
-    let textField: UnderlinedTextField = UnderlinedTextField()
+    let textField: UnderlinedTextField = UnderlinedTextField(placeholder: "hihi")
     
     let button: LongHorizontalButton = LongHorizontalButton(buttonText: "계속하기", isActivated: false)
     

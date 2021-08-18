@@ -20,6 +20,8 @@ class UnderlinedTextField: UIView {
         // Drawing code
     }
     */
+
+    let placeholder: String
     
     let textField: UITextField = UITextField().then {
         $0.textColor = .gray6
@@ -50,8 +52,9 @@ class UnderlinedTextField: UIView {
     
     
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    init(placeholder: String) {
+        self.placeholder = placeholder
+        super.init(frame: CGRect.zero)
         setLayout()
         initTextField()
         addButtonAction()
@@ -102,6 +105,8 @@ class UnderlinedTextField: UIView {
     }
     
     func initTextField() {
+        
+        
         let whileEditing = self.textField.rx.controlEvent([.editingChanged])
             .asObservable()
             .subscribe(onNext: { [unowned self] _ in
@@ -116,7 +121,8 @@ class UnderlinedTextField: UIView {
                 self.underline.backgroundColor = self.textField.text?.isEmpty ?? true ? UIColor.gray3 : UIColor.gray5
                 cancelButton.isHidden = true
             })
-
+        
+        textField.placeholder = self.placeholder
 
     }
     
@@ -134,6 +140,7 @@ class UnderlinedTextField: UIView {
     }
     
     func enableError(message: String) {
+        errorMessage.isHidden = false
         errorMessage.text = message
         cancelButton.isHidden = false
         underline.backgroundColor = .complementary

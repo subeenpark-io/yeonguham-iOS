@@ -21,9 +21,9 @@ extension UIViewController {
     
     func setNavigationBar(titleText: String, isBackButtonHidden: Bool) {
         self.navigationController?.isNavigationBarHidden = false
-        self.navigationController?.navigationBar.backItem?.title = ""
-        self.navigationController?.navigationItem.hidesBackButton = isBackButtonHidden
-        self.navigationController?.navigationBar.topItem?.title = titleText
+        self.navigationItem.title = titleText
+        self.navigationItem.backButtonTitle = ""
+        self.navigationItem.hidesBackButton = isBackButtonHidden
         
     }
     
