@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import RxSwift
 
 class NicknameViewController: UIViewController {
+    
+    let disposeBag = DisposeBag()
     
     let helpText: UILabel = UILabel().then {
         $0.text = "사용하실 닉네임을\n입력해주세요."
@@ -16,7 +19,7 @@ class NicknameViewController: UIViewController {
         $0.textColor = .gray7
     }
     
-    let textfield: UnderlinedTextField = UnderlinedTextField()
+    let textfield: UnderlinedTextField = UnderlinedTextField(placeholder: "닉네임")
     
     let button: LongHorizontalButton = LongHorizontalButton(buttonText: "계속하기", isActivated: false)
    
@@ -26,7 +29,7 @@ class NicknameViewController: UIViewController {
         self.view.backgroundColor = .white
         
         // navigation bar options
-        self.setNavigationBar(titleText: "닉네임 입력", isBackButtonHidden: false)
+        self.setNavigationBar(titleText: "닉네임 입력", isBackButtonHidden: true)
         
         // add gesture actions
         self.hideKeyboardWhenTappedAround()
@@ -34,6 +37,10 @@ class NicknameViewController: UIViewController {
         // add view, set layout
         self.view.addSubviews(helpText, textfield, button)
         setLayout()
+        
+        // add button enable condition/action
+        addButtonEnable()
+        addButtonAction()
 
     }
     
@@ -61,6 +68,25 @@ class NicknameViewController: UIViewController {
         
         
     }
+    
+    func addButtonEnable() {
+        
+        let textFieldValidation = self.textfield.textField
+            .rx.text
+            .map({
+                !($0?.isEmpty ?? true)
+            })
+            .bind(to: button.rx.isEnabled)
+            .disposed(by: disposeBag)
+        
+    }
+    
+    func addButtonAction() {
+        button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
@@ -71,8 +97,9 @@ class NicknameViewController: UIViewController {
     }
     */
     
-    @IBAction func buttonTapped(_ sender: Any) {
-        self.navigationController?.pushViewController(Const.Storyboard.emailValidation.viewController, animated: true)
+    @objc func buttonTapped(_ sender: Any) {
+        print("Nickname button Tapped")
+        self.navigationController?.pushViewController(EmailEntryViewController(), animated: true)
     }
 
 }
