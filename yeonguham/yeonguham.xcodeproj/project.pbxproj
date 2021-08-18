@@ -12,10 +12,14 @@
 		CC100BC92695CEC8005EED21 /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC62695CEC8005EED21 /* GmarketSansTTFMedium.ttf */; };
 		CC100BCA2695CEC8005EED21 /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC72695CEC8005EED21 /* GmarketSansTTFBold.ttf */; };
 		CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */; };
-		CC100BD02695D4F7005EED21 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BCF2695D4F7005EED21 /* UITextField+Extension.swift */; };
-		CC100BD22695DD03005EED21 /* UINavigationBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BD12695DD03005EED21 /* UINavigationBar+Extension.swift */; };
 		CC100BD72695E1E5005EED21 /* EmailValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */; };
 		CC100BD92695E20C005EED21 /* EmailValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC100BD82695E20C005EED21 /* EmailValidation.storyboard */; };
+		CC21948A26C3DF6200358FE2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21948926C3DF6200358FE2 /* TestViewController.swift */; };
+		CC21948E26C3E32400358FE2 /* ResearchCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21948D26C3E32400358FE2 /* ResearchCreateViewController.swift */; };
+		CC21949126C3E6A300358FE2 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21949026C3E6A300358FE2 /* UnderlinedTextField.swift */; };
+		CC21949326C3E75000358FE2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21949226C3E75000358FE2 /* UIColor+Extension.swift */; };
+		CC21949526C3E8ED00358FE2 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21949426C3E8ED00358FE2 /* UIFont+Extension.swift */; };
+		CC21949726C4096700358FE2 /* CalenderDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21949626C4096700358FE2 /* CalenderDatePicker.swift */; };
 		CC437F12265E061000FBD42D /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */; };
 		CC437F13265E061000FBD42D /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */; };
 		CC437F16265E061000FBD42D /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */; };
@@ -26,7 +30,6 @@
 		CC437F20265E0FAA00FBD42D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F1F265E0FAA00FBD42D /* MainViewController.swift */; };
 		CC437F22265E0FBF00FBD42D /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F21265E0FBF00FBD42D /* Const.swift */; };
 		CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F23265E0FCF00FBD42D /* Storyboard.swift */; };
-		CC437F26265E15A800FBD42D /* Nickname.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC437F25265E15A800FBD42D /* Nickname.storyboard */; };
 		CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC437F27265E16AC00FBD42D /* NicknameViewController.swift */; };
 		CC485014265D55AF003BCE67 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC485013265D55AF003BCE67 /* Launch Screen.storyboard */; };
 		CC8FDEFD265D45EB00E3FE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8FDEFC265D45EB00E3FE3B /* AppDelegate.swift */; };
@@ -35,8 +38,15 @@
 		CC8FDF04265D45EB00E3FE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF02265D45EB00E3FE3B /* Main.storyboard */; };
 		CC8FDF06265D45ED00E3FE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */; };
 		CC8FDF1D265D472600E3FE3B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8FDF1C265D472600E3FE3B /* Colors.xcassets */; };
+		CC902C5226CCE7C60017B28F /* LongHorizontalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C5126CCE7C60017B28F /* LongHorizontalButton.swift */; };
+		CC902C5426CCEF690017B28F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C5326CCEF690017B28F /* UIButton+Extension.swift */; };
+		CC902C5626CD04BA0017B28F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C5526CD04BA0017B28F /* UIViewController+Extension.swift */; };
 		CCC274F926994469003F2CF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC274F826994469003F2CF1 /* GoogleService-Info.plist */; };
 		CCC274FC2699578E003F2CF1 /* FirebaseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC274FB2699578E003F2CF1 /* FirebaseAuthentication.swift */; };
+		CCC579B526CA358E002D7E69 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC579B426CA358E002D7E69 /* BaseAPI.swift */; };
+		CCC579B726CA3751002D7E69 /* ResearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC579B626CA3751002D7E69 /* ResearchAPI.swift */; };
+		CCC579B926CA44EA002D7E69 /* Research.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC579B826CA44EA002D7E69 /* Research.swift */; };
+		CCC579BB26CA468D002D7E69 /* DictionaryEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC579BA26CA468D002D7E69 /* DictionaryEncodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,10 +57,14 @@
 		CC100BC62695CEC8005EED21 /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
 		CC100BC72695CEC8005EED21 /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
 		CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextField.swift; sourceTree = "<group>"; };
-		CC100BCF2695D4F7005EED21 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
-		CC100BD12695DD03005EED21 /* UINavigationBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extension.swift"; sourceTree = "<group>"; };
 		CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationViewController.swift; sourceTree = "<group>"; };
 		CC100BD82695E20C005EED21 /* EmailValidation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmailValidation.storyboard; sourceTree = "<group>"; };
+		CC21948926C3DF6200358FE2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CC21948D26C3E32400358FE2 /* ResearchCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchCreateViewController.swift; sourceTree = "<group>"; };
+		CC21949026C3E6A300358FE2 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
+		CC21949226C3E75000358FE2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CC21949426C3E8ED00358FE2 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CC21949626C4096700358FE2 /* CalenderDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderDatePicker.swift; sourceTree = "<group>"; };
 		CC437F09265E061000FBD42D /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
 		CC437F0A265E061000FBD42D /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
 		CC437F0D265E061000FBD42D /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
@@ -61,7 +75,6 @@
 		CC437F1F265E0FAA00FBD42D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CC437F21265E0FBF00FBD42D /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		CC437F23265E0FCF00FBD42D /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
-		CC437F25265E15A800FBD42D /* Nickname.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nickname.storyboard; sourceTree = "<group>"; };
 		CC437F27265E16AC00FBD42D /* NicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
 		CC485013265D55AF003BCE67 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CC8FDEF9265D45EB00E3FE3B /* yeonguham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeonguham.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +85,16 @@
 		CC8FDF05265D45ED00E3FE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8FDF0A265D45ED00E3FE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8FDF1C265D472600E3FE3B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CC902C5126CCE7C60017B28F /* LongHorizontalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongHorizontalButton.swift; sourceTree = "<group>"; };
+		CC902C5326CCEF690017B28F /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		CC902C5526CD04BA0017B28F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		CCC274F826994469003F2CF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CCC274FA26994B3E003F2CF1 /* yeonguham.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yeonguham.entitlements; sourceTree = "<group>"; };
 		CCC274FB2699578E003F2CF1 /* FirebaseAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthentication.swift; sourceTree = "<group>"; };
+		CCC579B426CA358E002D7E69 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseAPI.swift; path = Sources/yeonguhamUI/BaseAPI.swift; sourceTree = SOURCE_ROOT; };
+		CCC579B626CA3751002D7E69 /* ResearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResearchAPI.swift; path = Sources/yeonguhamUI/ResearchAPI.swift; sourceTree = SOURCE_ROOT; };
+		CCC579B826CA44EA002D7E69 /* Research.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Research.swift; sourceTree = SOURCE_ROOT; };
+		CCC579BA26CA468D002D7E69 /* DictionaryEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryEncodable.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +135,20 @@
 			path = SignUp;
 			sourceTree = "<group>";
 		};
+		CC21948F26C3E58A00358FE2 /* yeonguhamUI */ = {
+			isa = PBXGroup;
+			children = (
+				CC21949026C3E6A300358FE2 /* UnderlinedTextField.swift */,
+				CC21949626C4096700358FE2 /* CalenderDatePicker.swift */,
+				CC902C5126CCE7C60017B28F /* LongHorizontalButton.swift */,
+			);
+			path = yeonguhamUI;
+			sourceTree = "<group>";
+		};
 		CC437F1C265E079800FBD42D /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
 				CC8FDF02265D45EB00E3FE3B /* Main.storyboard */,
-				CC437F25265E15A800FBD42D /* Nickname.storyboard */,
 				CC100BD82695E20C005EED21 /* EmailValidation.storyboard */,
 			);
 			path = SignUp;
@@ -163,6 +192,7 @@
 		CC8FDF11265D468A00E3FE3B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CC21948F26C3E58A00358FE2 /* yeonguhamUI */,
 				CC8FDEFC265D45EB00E3FE3B /* AppDelegate.swift */,
 				CC8FDEFE265D45EB00E3FE3B /* SceneDelegate.swift */,
 				CC8FDF1A265D46EC00E3FE3B /* Model */,
@@ -224,6 +254,8 @@
 				CC100BD52695E1CD005EED21 /* SignUp */,
 				CC8FDF00265D45EB00E3FE3B /* ViewController.swift */,
 				CC437F1F265E0FAA00FBD42D /* MainViewController.swift */,
+				CC21948D26C3E32400358FE2 /* ResearchCreateViewController.swift */,
+				CC21948926C3DF6200358FE2 /* TestViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -239,6 +271,8 @@
 		CC8FDF18265D46DB00E3FE3B /* APIService */ = {
 			isa = PBXGroup;
 			children = (
+				CCC579B426CA358E002D7E69 /* BaseAPI.swift */,
+				CCC579B626CA3751002D7E69 /* ResearchAPI.swift */,
 			);
 			path = APIService;
 			sourceTree = "<group>";
@@ -253,6 +287,8 @@
 		CC8FDF1A265D46EC00E3FE3B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CCC579B826CA44EA002D7E69 /* Research.swift */,
+				CCC579BA26CA468D002D7E69 /* DictionaryEncodable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,8 +297,10 @@
 			isa = PBXGroup;
 			children = (
 				CC437F1D265E0F6900FBD42D /* UIView+Extension.swift */,
-				CC100BCF2695D4F7005EED21 /* UITextField+Extension.swift */,
-				CC100BD12695DD03005EED21 /* UINavigationBar+Extension.swift */,
+				CC21949226C3E75000358FE2 /* UIColor+Extension.swift */,
+				CC21949426C3E8ED00358FE2 /* UIFont+Extension.swift */,
+				CC902C5326CCEF690017B28F /* UIButton+Extension.swift */,
+				CC902C5526CD04BA0017B28F /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -335,7 +373,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC437F26265E15A800FBD42D /* Nickname.storyboard in Resources */,
 				CC437F13265E061000FBD42D /* NotoSansKR-Black.otf in Resources */,
 				CC8FDF1D265D472600E3FE3B /* Colors.xcassets in Resources */,
 				CC100BD92695E20C005EED21 /* EmailValidation.storyboard in Resources */,
@@ -420,19 +457,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC21948A26C3DF6200358FE2 /* TestViewController.swift in Sources */,
+				CC21948E26C3E32400358FE2 /* ResearchCreateViewController.swift in Sources */,
 				CC8FDF01265D45EB00E3FE3B /* ViewController.swift in Sources */,
 				CC8FDEFD265D45EB00E3FE3B /* AppDelegate.swift in Sources */,
+				CC21949326C3E75000358FE2 /* UIColor+Extension.swift in Sources */,
 				CC437F1E265E0F6900FBD42D /* UIView+Extension.swift in Sources */,
+				CCC579B926CA44EA002D7E69 /* Research.swift in Sources */,
+				CC21949526C3E8ED00358FE2 /* UIFont+Extension.swift in Sources */,
+				CC902C5426CCEF690017B28F /* UIButton+Extension.swift in Sources */,
 				CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */,
 				CC100BD72695E1E5005EED21 /* EmailValidationViewController.swift in Sources */,
+				CCC579B726CA3751002D7E69 /* ResearchAPI.swift in Sources */,
+				CCC579B526CA358E002D7E69 /* BaseAPI.swift in Sources */,
+				CC21949726C4096700358FE2 /* CalenderDatePicker.swift in Sources */,
+				CC902C5626CD04BA0017B28F /* UIViewController+Extension.swift in Sources */,
+				CC21949126C3E6A300358FE2 /* UnderlinedTextField.swift in Sources */,
 				CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */,
+				CCC579BB26CA468D002D7E69 /* DictionaryEncodable.swift in Sources */,
 				CCC274FC2699578E003F2CF1 /* FirebaseAuthentication.swift in Sources */,
-				CC100BD02695D4F7005EED21 /* UITextField+Extension.swift in Sources */,
 				CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */,
+				CC902C5226CCE7C60017B28F /* LongHorizontalButton.swift in Sources */,
 				CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */,
 				CC437F20265E0FAA00FBD42D /* MainViewController.swift in Sources */,
 				CC437F22265E0FBF00FBD42D /* Const.swift in Sources */,
-				CC100BD22695DD03005EED21 /* UINavigationBar+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

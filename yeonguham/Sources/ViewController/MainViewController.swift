@@ -34,6 +34,7 @@ class MainViewController: UIViewController, ASAuthorizationControllerDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.hideNavigationBar()
         makeButtonsRounded()
         giveShadows()
         
@@ -80,10 +81,12 @@ class MainViewController: UIViewController, ASAuthorizationControllerDelegate {
     
     @objc func googleButtonPressed(_ sender: Any) {
         
-        print("tapped")
+        print("Google button tapped")
+        self.navigationController?.pushViewController(NicknameViewController(), animated: true)
         
-        GIDSignIn.sharedInstance()?.presentingViewController = self
-        GIDSignIn.sharedInstance().signIn()
+        
+//        GIDSignIn.sharedInstance()?.presentingViewController = self
+//        GIDSignIn.sharedInstance().signIn()
         
 //
 //        self.navigationController?.pushViewController(Const.Storyboard.nickname.viewController, animated: true)

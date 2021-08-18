@@ -17,7 +17,6 @@ class EmailValidationViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        navbar.initCustomNavbar()
         button.makeRounded(radius: 4)
     }
     
