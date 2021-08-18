@@ -11,18 +11,52 @@ import KakaoSDKAuth
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
-
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+      
+        let window = UIWindow(windowScene: windowScene)
+        let landingViewController = Const.Storyboard.main.viewController
+        window.rootViewController = UINavigationController(rootViewController: landingViewController)
+        window.makeKeyAndVisible()
+        
+        // nav bar custom - set background white
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+        
+        // nav bar custom - set back button
+        // reference: https://developer.apple.com/documentation/uikit/uinavigationcontroller/customizing_your_app_s_navigation_bar
+        UINavigationBar.appearance().backIndicatorImage = UIImage(named: "iconBack")
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "iconBack")
+        UINavigationBar.appearance().tintColor = .gray7
+        
+    
+        
+        // nav bar custom - font
+        let attributes = [
+            NSAttributedString.Key.font: UIFont.typo4Medium,
+            NSAttributedString.Key.foregroundColor: UIColor.gray7
+        ]
+        UINavigationBar.appearance().titleTextAttributes = attributes
+        
+        self.window = window
         
         if #available(iOS 13.0, *) {
-            window?.overrideUserInterfaceStyle = .light
+            self.window?.overrideUserInterfaceStyle = .light
         }
     }
+
+
+//    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+//        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+//        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+//        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+//        guard let _ = (scene as? UIWindowScene) else { return }
+//
+//        if #available(iOS 13.0, *) {
+//            window?.overrideUserInterfaceStyle = .light
+//        }
+//    }
     
     func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
             if let url = URLContexts.first?.url {

@@ -9,6 +9,12 @@ import UIKit
 
 extension UIView {
     
+    func addSubviews(_ views: UIView...) {
+        for view in views {
+            self.addSubview(view)
+        }
+    }
+    
     
     // BORDER RADIUS
     func makeRounded(radius: CGFloat) {
@@ -33,6 +39,13 @@ extension UIView {
         self.layer.cornerRadius = radius
         
     }
+    
+    
+    
+    
+    
+    
+   
 
     
     
