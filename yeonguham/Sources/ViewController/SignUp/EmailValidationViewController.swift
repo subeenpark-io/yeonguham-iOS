@@ -112,7 +112,7 @@ class EmailValidationViewController: UIViewController {
     
     @objc func buttonTapped(_ sender: Any) {
         
-        print("button tapped")
+        self.navigationController?.pushViewController(SelectTagViewController(), animated: true)
         
     }
 
