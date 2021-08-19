@@ -18,13 +18,16 @@ extension UIColor {
     */
     
     class var gray1: UIColor { fetchColor(#function) }
+    class var gray2: UIColor { fetchColor(#function) }
     class var gray3: UIColor { fetchColor(#function) }
     class var gray5: UIColor { fetchColor(#function) }
     class var gray6: UIColor { fetchColor(#function) }
     class var gray7: UIColor { fetchColor(#function) }
     class var primary: UIColor { fetchColor(#function) }
     class var primaryDarker: UIColor { fetchColor(#function)}
+    class var primaryDarkest: UIColor { fetchColor(#function)}
     class var complementary: UIColor { fetchColor(#function) }
+    class var secondary: UIColor { fetchColor(#function) }
     class var secondaryLightest: UIColor { fetchColor(#function) }
     
     

@@ -16,4 +16,12 @@ struct Const {
     "경제학", "경영학", "심리학", "언론정보학", "인류학", "언어학", "의류학", "교육학", "예체능"]
     static let imageList: [String] = ["iconPharmacy", "iconBiology", "iconElectronics", "iconComputer", "iconMechanical",
     "iconEnvironmental", "iconNutrition", "iconArchitecture", "iconEconomics", "iconBusiness", "iconPsychology", "iconPsychology", "iconAnthropology", "iconLinguistic", "iconClothing", "iconEducation", "iconEntertainment"]
+    
+    static var fieldDict: [String: String] {
+        var dictionary: [String: String] = [:]
+        for (index, element) in tagList.enumerated() {
+            dictionary[element] = imageList[index]
+        }
+        return dictionary
+    }
 }

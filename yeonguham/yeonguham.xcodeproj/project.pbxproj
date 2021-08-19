@@ -11,7 +11,6 @@
 		CC100BC82695CEC8005EED21 /* GmarketSansTTFLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC52695CEC8005EED21 /* GmarketSansTTFLight.ttf */; };
 		CC100BC92695CEC8005EED21 /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC62695CEC8005EED21 /* GmarketSansTTFMedium.ttf */; };
 		CC100BCA2695CEC8005EED21 /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC100BC72695CEC8005EED21 /* GmarketSansTTFBold.ttf */; };
-		CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */; };
 		CC100BD72695E1E5005EED21 /* EmailValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */; };
 		CC100BD92695E20C005EED21 /* EmailValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC100BD82695E20C005EED21 /* EmailValidation.storyboard */; };
 		CC21948A26C3DF6200358FE2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC21948926C3DF6200358FE2 /* TestViewController.swift */; };
@@ -59,7 +58,12 @@
 		CCD2D48026CD5A7800A1E360 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D47F26CD5A7800A1E360 /* HomeViewController.swift */; };
 		CCD2D48226CD65FC00A1E360 /* MainToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D48126CD65FC00A1E360 /* MainToolBar.swift */; };
 		CCD2D48426CD7BEC00A1E360 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D48326CD7BEC00A1E360 /* CustomPageControl.swift */; };
-		CCD2D48626CD885100A1E360 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D48526CD885100A1E360 /* FieldTableViewCell.swift */; };
+		CCD2D49526CE499B00A1E360 /* SquareResearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D49426CE499B00A1E360 /* SquareResearchCollectionViewCell.swift */; };
+		CCD2D49826CE49F000A1E360 /* HorizontalScrollCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D49726CE49F000A1E360 /* HorizontalScrollCollectionView.swift */; };
+		CCD2D49A26CE6C2200A1E360 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D49926CE6C2200A1E360 /* UITableViewCell+Extension.swift */; };
+		CCD2D49C26CE702800A1E360 /* HomeSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D49B26CE702800A1E360 /* HomeSectionHeaderView.swift */; };
+		CCD2D49E26CE774100A1E360 /* DummyResearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D49D26CE774100A1E360 /* DummyResearch.swift */; };
+		CCD2D4A026CE7A5400A1E360 /* YeonguhamChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D49F26CE7A5400A1E360 /* YeonguhamChip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,7 +73,6 @@
 		CC100BC52695CEC8005EED21 /* GmarketSansTTFLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFLight.ttf; sourceTree = "<group>"; };
 		CC100BC62695CEC8005EED21 /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
 		CC100BC72695CEC8005EED21 /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
-		CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextField.swift; sourceTree = "<group>"; };
 		CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationViewController.swift; sourceTree = "<group>"; };
 		CC100BD82695E20C005EED21 /* EmailValidation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmailValidation.storyboard; sourceTree = "<group>"; };
 		CC21948926C3DF6200358FE2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +123,12 @@
 		CCD2D47F26CD5A7800A1E360 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CCD2D48126CD65FC00A1E360 /* MainToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToolBar.swift; sourceTree = "<group>"; };
 		CCD2D48326CD7BEC00A1E360 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
-		CCD2D48526CD885100A1E360 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
+		CCD2D49426CE499B00A1E360 /* SquareResearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareResearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCD2D49726CE49F000A1E360 /* HorizontalScrollCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollCollectionView.swift; sourceTree = "<group>"; };
+		CCD2D49926CE6C2200A1E360 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		CCD2D49B26CE702800A1E360 /* HomeSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionHeaderView.swift; sourceTree = "<group>"; };
+		CCD2D49D26CE774100A1E360 /* DummyResearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyResearch.swift; sourceTree = "<group>"; };
+		CCD2D49F26CE7A5400A1E360 /* YeonguhamChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeonguhamChip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,7 +307,9 @@
 		CC8FDF17265D46D400E3FE3B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CC100BCD2695D0AE005EED21 /* SignUpTextField.swift */,
+				CCD2D49726CE49F000A1E360 /* HorizontalScrollCollectionView.swift */,
+				CCD2D49B26CE702800A1E360 /* HomeSectionHeaderView.swift */,
+				CCD2D49F26CE7A5400A1E360 /* YeonguhamChip.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,7 +326,7 @@
 		CC8FDF19265D46E400E3FE3B /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				CCD2D48526CD885100A1E360 /* FieldTableViewCell.swift */,
+				CCD2D49426CE499B00A1E360 /* SquareResearchCollectionViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -326,6 +336,7 @@
 			children = (
 				CC902C5A26CD1ACA0017B28F /* DictionaryEncodable.swift */,
 				CC902C5926CD1AC90017B28F /* Research.swift */,
+				CCD2D49D26CE774100A1E360 /* DummyResearch.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,6 +350,7 @@
 				CC902C5326CCEF690017B28F /* UIButton+Extension.swift */,
 				CC902C5526CD04BA0017B28F /* UIViewController+Extension.swift */,
 				CC902C6326CD20600017B28F /* String+Extension.swift */,
+				CCD2D49926CE6C2200A1E360 /* UITableViewCell+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -541,14 +553,18 @@
 				CCD2D47C26CD5A6800A1E360 /* NotificationViewController.swift in Sources */,
 				CCD2D48026CD5A7800A1E360 /* HomeViewController.swift in Sources */,
 				CC21948A26C3DF6200358FE2 /* TestViewController.swift in Sources */,
+				CCD2D4A026CE7A5400A1E360 /* YeonguhamChip.swift in Sources */,
+				CCD2D49E26CE774100A1E360 /* DummyResearch.swift in Sources */,
 				CCD2D48226CD65FC00A1E360 /* MainToolBar.swift in Sources */,
 				CC21948E26C3E32400358FE2 /* ResearchCreateViewController.swift in Sources */,
+				CCD2D49A26CE6C2200A1E360 /* UITableViewCell+Extension.swift in Sources */,
 				CC8FDF01265D45EB00E3FE3B /* ViewController.swift in Sources */,
 				CC902C5B26CD1ACA0017B28F /* Research.swift in Sources */,
 				CC8FDEFD265D45EB00E3FE3B /* AppDelegate.swift in Sources */,
 				CC902C5C26CD1ACA0017B28F /* DictionaryEncodable.swift in Sources */,
 				CC902C6426CD20600017B28F /* String+Extension.swift in Sources */,
 				CC902C5F26CD1AD40017B28F /* ResearchAPI.swift in Sources */,
+				CCD2D49826CE49F000A1E360 /* HorizontalScrollCollectionView.swift in Sources */,
 				CC21949326C3E75000358FE2 /* UIColor+Extension.swift in Sources */,
 				CC437F1E265E0F6900FBD42D /* UIView+Extension.swift in Sources */,
 				CCD2D47126CD341100A1E360 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
@@ -559,6 +575,8 @@
 				CC21949726C4096700358FE2 /* CalenderDatePicker.swift in Sources */,
 				CC902C6226CD1E540017B28F /* EmailEntryViewController.swift in Sources */,
 				CCD2D47326CD59C600A1E360 /* CustomTabBar.swift in Sources */,
+				CCD2D49C26CE702800A1E360 /* HomeSectionHeaderView.swift in Sources */,
+				CCD2D49526CE499B00A1E360 /* SquareResearchCollectionViewCell.swift in Sources */,
 				CC902C5626CD04BA0017B28F /* UIViewController+Extension.swift in Sources */,
 				CC21949126C3E6A300358FE2 /* UnderlinedTextField.swift in Sources */,
 				CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */,
@@ -566,10 +584,8 @@
 				CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */,
 				CC902C5226CCE7C60017B28F /* LongHorizontalButton.swift in Sources */,
 				CCD2D47E26CD5A7100A1E360 /* RecommendationViewController.swift in Sources */,
-				CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */,
 				CC437F20265E0FAA00FBD42D /* MainViewController.swift in Sources */,
 				CC902C6626CD2BC00017B28F /* SelectTagViewController.swift in Sources */,
-				CCD2D48626CD885100A1E360 /* FieldTableViewCell.swift in Sources */,
 				CC437F22265E0FBF00FBD42D /* Const.swift in Sources */,
 				CC902C6026CD1AD40017B28F /* BaseAPI.swift in Sources */,
 				CCD2D48426CD7BEC00A1E360 /* CustomPageControl.swift in Sources */,

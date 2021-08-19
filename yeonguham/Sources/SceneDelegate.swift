@@ -16,7 +16,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
       
         let window = UIWindow(windowScene: windowScene)
-        let landingViewController = Const.Storyboard.main.viewController
+//        let landingViewController = Const.Storyboard.main.viewController
+        let landingViewController = CustomTabBar()
         window.rootViewController = UINavigationController(rootViewController: landingViewController)
         window.makeKeyAndVisible()
         

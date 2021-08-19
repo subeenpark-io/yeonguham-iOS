@@ -22,6 +22,7 @@ extension UIFont {
     class var typo5: UIFont { notoSansKRFont(type: .regular, size: 16) }
     class var typo6: UIFont { notoSansKRFont(type: .regular, size: 14) }
     class var typo7: UIFont { notoSansKRFont(type: .regular, size: 12) }
+    class var typo8Medium: UIFont { notoSansKRFont(type: .medium, size: 10) }
     
     class func notoSansKRFont(type: NotoSansKRType, size: CGFloat) -> UIFont {
         guard let font = UIFont(name: type.name, size: size) else { return .systemFont(ofSize: 3) }
