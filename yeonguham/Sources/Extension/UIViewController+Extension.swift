@@ -12,7 +12,8 @@ import UIKit
 extension UIViewController {
     
     func hideNavigationBar() {
-        self.navigationController?.isNavigationBarHidden = true
+//        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     func hideBackButtonText() {

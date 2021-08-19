@@ -17,6 +17,7 @@ extension UIColor {
     }
     */
     
+    class var gray1: UIColor { fetchColor(#function) }
     class var gray3: UIColor { fetchColor(#function) }
     class var gray5: UIColor { fetchColor(#function) }
     class var gray6: UIColor { fetchColor(#function) }
@@ -24,6 +25,7 @@ extension UIColor {
     class var primary: UIColor { fetchColor(#function) }
     class var primaryDarker: UIColor { fetchColor(#function)}
     class var complementary: UIColor { fetchColor(#function) }
+    class var secondaryLightest: UIColor { fetchColor(#function) }
     
     
     private static func fetchColor(_ name: String) -> UIColor {

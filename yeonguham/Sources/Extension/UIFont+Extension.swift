@@ -15,7 +15,7 @@ extension UIFont {
     class var subTypo3: UIFont { gmarketSansFont(type: .medium, size: 24)}
     
     class var typo2: UIFont { notoSansKRFont(type: .medium, size: 24) }
-    
+    class var typo3Medium :UIFont { notoSansKRFont(type: .medium, size: 22) }
     class var typo4: UIFont { notoSansKRFont(type: .regular, size: 18) }
     class var typo4Medium: UIFont { notoSansKRFont(type: .medium, size: 18) }
         
