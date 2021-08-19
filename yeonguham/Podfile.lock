@@ -139,6 +139,9 @@ PODS:
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (1.2.12)
+  - ReusableKit (3.0.0):
+    - ReusableKit/Core (= 3.0.0)
+  - ReusableKit/Core (3.0.0)
   - RxCocoa (6.2.0):
     - RxRelay (= 6.2.0)
     - RxSwift (= 6.2.0)
@@ -146,7 +149,6 @@ PODS:
     - RxSwift (= 6.2.0)
   - RxSwift (6.2.0)
   - SnapKit (5.0.1)
-  - TagListView (1.4.1)
   - Then (2.7.0)
 
 DEPENDENCIES:
@@ -157,10 +159,10 @@ DEPENDENCIES:
   - GoogleSignIn
   - KakaoSDK
   - Moya (~> 14.0)
+  - ReusableKit
   - RxCocoa (= 6.2.0)
   - RxSwift (= 6.2.0)
   - SnapKit (~> 5.0.0)
-  - TagListView (~> 1.0)
   - Then
 
 SPEC REPOS:
@@ -192,11 +194,11 @@ SPEC REPOS:
     - Moya
     - nanopb
     - PromisesObjC
+    - ReusableKit
     - RxCocoa
     - RxRelay
     - RxSwift
     - SnapKit
-    - TagListView
     - Then
 
 SPEC CHECKSUMS:
@@ -227,13 +229,13 @@ SPEC CHECKSUMS:
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  ReusableKit: e5f853ad4652e411f96b6119b2488afa12929be6
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: 60921ff3b29b645df4db3924212380973ab7756c
+PODFILE CHECKSUM: 6d1089fbfe0abc6e8d21eea511f890f9e521a963
 
 COCOAPODS: 1.10.1

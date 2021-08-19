@@ -1,5 +1,5 @@
 //
-//  CutomTabBar.swift
+//  CustomTabBar.swift
 //  yeonguham
 //
 //  Created by Subeen Park on 2021/08/19.
@@ -7,11 +7,23 @@
 
 import UIKit
 
-class CutomTabBar: UITabBarController {
+class CustomTabBar: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = .white
+        
+        setTabBarDesign()
+        setTabBar()
+        self.hideNavigationBar()
+        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.isHidden = true
+        
+        self.tabBarController?.navigationController?.isNavigationBarHidden = true
+        self.tabBarController?.hideNavigationBar()
+        self.tabBarController?.navigationController?.navigationBar.isHidden = true
+        self.tabBarController?.navigationController?.setNavigationBarHidden(true, animated: false)
+        
         // Do any additional setup after loading the view.
     }
     
@@ -27,7 +39,7 @@ class CutomTabBar: UITabBarController {
     */
     
     func setTabBarDesign() {
-        UITabBar.appearance().backgroundColor = .white
+        UITabBar.appearance().barTintColor = .white
         UITabBar.appearance().tintColor = .primary
         UITabBar.appearance().layer.borderWidth = 1
         UITabBar.appearance().layer.borderColor = UIColor.gray1.cgColor
@@ -56,7 +68,9 @@ class CutomTabBar: UITabBarController {
         myProfile.tabBarItem.image = UIImage(named: "iconUserDefault")
         myProfile.tabBarItem.selectedImage = UIImage(named: "iconUserActive")
         myProfile.tabBarItem.title = "내 프로필"
-        self.selectedIndex = 1
+        
+        self.setViewControllers([home, recommendation, notification, myProfile], animated: true)
+        self.selectedIndex = 0
         
     }
 

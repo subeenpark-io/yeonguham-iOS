@@ -11,7 +11,7 @@ class RecommendationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.hideNavigationBar()
         // Do any additional setup after loading the view.
     }
     

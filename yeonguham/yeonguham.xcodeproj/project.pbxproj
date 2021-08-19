@@ -47,8 +47,19 @@
 		CC902C6026CD1AD40017B28F /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C5E26CD1AD40017B28F /* BaseAPI.swift */; };
 		CC902C6226CD1E540017B28F /* EmailEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C6126CD1E540017B28F /* EmailEntryViewController.swift */; };
 		CC902C6426CD20600017B28F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C6326CD20600017B28F /* String+Extension.swift */; };
+		CC902C6626CD2BC00017B28F /* SelectTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C6526CD2BC00017B28F /* SelectTagViewController.swift */; };
+		CC902C6926CD2C430017B28F /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC902C6826CD2C430017B28F /* TagCell.swift */; };
 		CCC274F926994469003F2CF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC274F826994469003F2CF1 /* GoogleService-Info.plist */; };
 		CCC274FC2699578E003F2CF1 /* FirebaseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC274FB2699578E003F2CF1 /* FirebaseAuthentication.swift */; };
+		CCD2D47126CD341100A1E360 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D47026CD341100A1E360 /* LeftAlignedCollectionViewFlowLayout.swift */; };
+		CCD2D47326CD59C600A1E360 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D47226CD59C600A1E360 /* CustomTabBar.swift */; };
+		CCD2D47A26CD5A5F00A1E360 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D47926CD5A5F00A1E360 /* MyProfileViewController.swift */; };
+		CCD2D47C26CD5A6800A1E360 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D47B26CD5A6800A1E360 /* NotificationViewController.swift */; };
+		CCD2D47E26CD5A7100A1E360 /* RecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D47D26CD5A7100A1E360 /* RecommendationViewController.swift */; };
+		CCD2D48026CD5A7800A1E360 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D47F26CD5A7800A1E360 /* HomeViewController.swift */; };
+		CCD2D48226CD65FC00A1E360 /* MainToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D48126CD65FC00A1E360 /* MainToolBar.swift */; };
+		CCD2D48426CD7BEC00A1E360 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D48326CD7BEC00A1E360 /* CustomPageControl.swift */; };
+		CCD2D48626CD885100A1E360 /* FieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD2D48526CD885100A1E360 /* FieldTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,9 +107,20 @@
 		CC902C5E26CD1AD40017B28F /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		CC902C6126CD1E540017B28F /* EmailEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailEntryViewController.swift; sourceTree = "<group>"; };
 		CC902C6326CD20600017B28F /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		CC902C6526CD2BC00017B28F /* SelectTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTagViewController.swift; sourceTree = "<group>"; };
+		CC902C6826CD2C430017B28F /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 		CCC274F826994469003F2CF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CCC274FA26994B3E003F2CF1 /* yeonguham.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yeonguham.entitlements; sourceTree = "<group>"; };
 		CCC274FB2699578E003F2CF1 /* FirebaseAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthentication.swift; sourceTree = "<group>"; };
+		CCD2D47026CD341100A1E360 /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		CCD2D47226CD59C600A1E360 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		CCD2D47926CD5A5F00A1E360 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		CCD2D47B26CD5A6800A1E360 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CCD2D47D26CD5A7100A1E360 /* RecommendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewController.swift; sourceTree = "<group>"; };
+		CCD2D47F26CD5A7800A1E360 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CCD2D48126CD65FC00A1E360 /* MainToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainToolBar.swift; sourceTree = "<group>"; };
+		CCD2D48326CD7BEC00A1E360 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		CCD2D48526CD885100A1E360 /* FieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +158,7 @@
 				CC437F27265E16AC00FBD42D /* NicknameViewController.swift */,
 				CC100BD62695E1E5005EED21 /* EmailValidationViewController.swift */,
 				CC902C6126CD1E540017B28F /* EmailEntryViewController.swift */,
+				CC902C6526CD2BC00017B28F /* SelectTagViewController.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -143,9 +166,13 @@
 		CC21948F26C3E58A00358FE2 /* yeonguhamUI */ = {
 			isa = PBXGroup;
 			children = (
+				CC902C6726CD2C2B0017B28F /* InterestTag */,
 				CC21949026C3E6A300358FE2 /* UnderlinedTextField.swift */,
 				CC21949626C4096700358FE2 /* CalenderDatePicker.swift */,
 				CC902C5126CCE7C60017B28F /* LongHorizontalButton.swift */,
+				CCD2D47226CD59C600A1E360 /* CustomTabBar.swift */,
+				CCD2D48126CD65FC00A1E360 /* MainToolBar.swift */,
+				CCD2D48326CD7BEC00A1E360 /* CustomPageControl.swift */,
 			);
 			path = yeonguhamUI;
 			sourceTree = "<group>";
@@ -256,6 +283,10 @@
 		CC8FDF16265D46C300E3FE3B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CCD2D47826CD5A4B00A1E360 /* MyProfile */,
+				CCD2D47726CD5A4600A1E360 /* Notification */,
+				CCD2D47626CD5A4100A1E360 /* Recommendation */,
+				CCD2D47526CD5A3C00A1E360 /* Home */,
 				CC100BD52695E1CD005EED21 /* SignUp */,
 				CC8FDF00265D45EB00E3FE3B /* ViewController.swift */,
 				CC437F1F265E0FAA00FBD42D /* MainViewController.swift */,
@@ -285,6 +316,7 @@
 		CC8FDF19265D46E400E3FE3B /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				CCD2D48526CD885100A1E360 /* FieldTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -317,6 +349,47 @@
 				CC485013265D55AF003BCE67 /* Launch Screen.storyboard */,
 			);
 			path = Base.Iproj;
+			sourceTree = "<group>";
+		};
+		CC902C6726CD2C2B0017B28F /* InterestTag */ = {
+			isa = PBXGroup;
+			children = (
+				CC902C6826CD2C430017B28F /* TagCell.swift */,
+				CCD2D47026CD341100A1E360 /* LeftAlignedCollectionViewFlowLayout.swift */,
+			);
+			path = InterestTag;
+			sourceTree = "<group>";
+		};
+		CCD2D47526CD5A3C00A1E360 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2D47F26CD5A7800A1E360 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CCD2D47626CD5A4100A1E360 /* Recommendation */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2D47D26CD5A7100A1E360 /* RecommendationViewController.swift */,
+			);
+			path = Recommendation;
+			sourceTree = "<group>";
+		};
+		CCD2D47726CD5A4600A1E360 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2D47B26CD5A6800A1E360 /* NotificationViewController.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		CCD2D47826CD5A4B00A1E360 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2D47926CD5A5F00A1E360 /* MyProfileViewController.swift */,
+			);
+			path = MyProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,7 +536,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC902C6926CD2C430017B28F /* TagCell.swift in Sources */,
+				CCD2D47A26CD5A5F00A1E360 /* MyProfileViewController.swift in Sources */,
+				CCD2D47C26CD5A6800A1E360 /* NotificationViewController.swift in Sources */,
+				CCD2D48026CD5A7800A1E360 /* HomeViewController.swift in Sources */,
 				CC21948A26C3DF6200358FE2 /* TestViewController.swift in Sources */,
+				CCD2D48226CD65FC00A1E360 /* MainToolBar.swift in Sources */,
 				CC21948E26C3E32400358FE2 /* ResearchCreateViewController.swift in Sources */,
 				CC8FDF01265D45EB00E3FE3B /* ViewController.swift in Sources */,
 				CC902C5B26CD1ACA0017B28F /* Research.swift in Sources */,
@@ -473,22 +551,28 @@
 				CC902C5F26CD1AD40017B28F /* ResearchAPI.swift in Sources */,
 				CC21949326C3E75000358FE2 /* UIColor+Extension.swift in Sources */,
 				CC437F1E265E0F6900FBD42D /* UIView+Extension.swift in Sources */,
+				CCD2D47126CD341100A1E360 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				CC21949526C3E8ED00358FE2 /* UIFont+Extension.swift in Sources */,
 				CC902C5426CCEF690017B28F /* UIButton+Extension.swift in Sources */,
 				CC437F24265E0FCF00FBD42D /* Storyboard.swift in Sources */,
 				CC100BD72695E1E5005EED21 /* EmailValidationViewController.swift in Sources */,
 				CC21949726C4096700358FE2 /* CalenderDatePicker.swift in Sources */,
 				CC902C6226CD1E540017B28F /* EmailEntryViewController.swift in Sources */,
+				CCD2D47326CD59C600A1E360 /* CustomTabBar.swift in Sources */,
 				CC902C5626CD04BA0017B28F /* UIViewController+Extension.swift in Sources */,
 				CC21949126C3E6A300358FE2 /* UnderlinedTextField.swift in Sources */,
 				CC437F28265E16AC00FBD42D /* NicknameViewController.swift in Sources */,
 				CCC274FC2699578E003F2CF1 /* FirebaseAuthentication.swift in Sources */,
 				CC8FDEFF265D45EB00E3FE3B /* SceneDelegate.swift in Sources */,
 				CC902C5226CCE7C60017B28F /* LongHorizontalButton.swift in Sources */,
+				CCD2D47E26CD5A7100A1E360 /* RecommendationViewController.swift in Sources */,
 				CC100BCE2695D0AE005EED21 /* SignUpTextField.swift in Sources */,
 				CC437F20265E0FAA00FBD42D /* MainViewController.swift in Sources */,
+				CC902C6626CD2BC00017B28F /* SelectTagViewController.swift in Sources */,
+				CCD2D48626CD885100A1E360 /* FieldTableViewCell.swift in Sources */,
 				CC437F22265E0FBF00FBD42D /* Const.swift in Sources */,
 				CC902C6026CD1AD40017B28F /* BaseAPI.swift in Sources */,
+				CCD2D48426CD7BEC00A1E360 /* CustomPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -612,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
